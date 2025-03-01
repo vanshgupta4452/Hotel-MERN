@@ -1,0 +1,91 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(33, 37, 41);
+}
+
+#root {
+  min-height: 100vh; /* Ensures it stretches to at least the full viewport height */
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(33, 37, 41);
+}
+
+.baby {
+  flex: 1; /* Ensures it takes up all available space */
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: auto; /* Pushes footer to the bottom */
+  background-color: rgb(33, 37, 41);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.login{
+  background-color: rgb(33, 37, 41);
+  color: white;
+  border-color: white;
+}
+.text-color{
+  color:black
+}
+
+.h-150px {
+  height: 4rem;
+}
+
+.w-150{
+ width: 30px;
+}
+.color{
+ background-color: rgb(42, 41, 41);
+ color: white;
+}
+
+
+.carditem{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  flex-wrap: wrap;
+
+}
+.feature{
+  margin-left:16rem;
+  margin-right:14rem;
+  margin-top:4rem;
+  margin-bottom: 4rem;
+  width: 80rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.feature-item{
+  width: 20rem;
+}
+
+
+.black{
+  background-color:rgb(42, 41, 41) ;
+  color: white;
+}
+
+.hotel{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  
+}
+
+.margin-5{
+  margin-top: 2rem;
+}
